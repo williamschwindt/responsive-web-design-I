@@ -1,0 +1,39 @@
+@media (max-width: 800px) {
+    .container { width: 90%; }
+
+    nav {
+        margin: 2% auto;
+        display: block;
+        position: absolute;
+        box-shadow: none;
+        text-align: center;
+    }
+    
+    nav a {
+        color: grey;
+        font-size: 100%; 
+        width: 16%;
+        margin: 0 2%;
+    }
+
+    nav img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+
+    .main-img { display: none; }
+
+    header { justify-content: center; }
+
+    #main-text { font-size: 350%; }
+
+    .upper-content { font-size: 100%; }
+    
+}
+
+@media (max-width: 500px) {
+    .container { width: 100%; }
+
+    #main-text { color:red;}
+}

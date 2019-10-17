@@ -34,6 +34,64 @@
 
 @media (max-width: 500px) {
     .container { width: 100%; }
+    
+    nav a {
+        display: block;
+        margin: 0 auto;
+        border-top: 1px solid black;
+        padding: 2%;
+        width: 60%;
+    }
 
-    #main-text { color:red;}
+    header { margin-top: 250px; }
+
+    .slogan button { font-size: 100%; }
+
+    #main-text { font-size: 250%; }
+
+    .upper-content { display: block; }
+
+    .features {
+        width: 90%;
+        margin: 0 5%;
+        margin-bottom: 5%;
+    }
+
+    .about {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .middle-img {
+        width: 90%;
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+
+    .bottom-content {
+        display: block;
+    }
+
+    .services1 {
+        width: 90%;
+        margin: 0 5%;
+        margin-bottom: 5%;
+    }
+
+    .product {
+        width: 90%;
+        margin: 0 5%;
+        margin-bottom: 5%;
+    }
+
+    .vision {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .contact {
+        margin-left: 5%;
+    }
+
+
 }
